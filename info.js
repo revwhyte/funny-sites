@@ -1,3 +1,11 @@
-const questions = Array();
+var questions = [
+    "cachorro quente é sanduíche?",
+    "você usa fio dental antes ou depois de escovar os dentes?",
+];
 
-questions = { 1: "cachorro quente é sanduíche?" };
+function generateTheme() {
+    var output = questions[Math.floor(Math.random() * questions.length)];
+
+    var outing = document.getElementById("here");
+    outing.innerHTML = output;
+}
