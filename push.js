@@ -10,13 +10,19 @@ var questions = [
     "Se pudesse ir em qualquer lugar no mundo, qual seria?"
 ];
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, options);
+$(document).ready(function() {
+    $('.fixed-action-btn').floatingActionButton({
+        hoverEnabled: false
+    });
 });
 
+$(document).ready(function() {
+    $('.tooltipped').tooltip();
+});
 
 function generateTheme() {
     var output = questions[Math.floor(Math.random() * questions.length)];
-    document.getElementById("here").innerHTML = output;
+    var p = document.getElementById("here");
+    p.style.textAlign = "center";
+    p.innerHTML = output;
 }
