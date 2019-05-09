@@ -7,20 +7,16 @@ var questions = [
     "Qual seria seu nome de rockstar: seu primeiro pet, seu último carro",
     "Qual o maior mico que você já pagou?",
     "Que superpoder você queria ter, mas que teria um revés e você aceitaria?",
-    "Se pudesse ir em qualquer lugar no mundo, qual seria?",
-    /*"",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",*/
+    "Se pudesse ir em qualquer lugar no mundo, qual seria?"
 ];
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, options);
+});
+
 
 function generateTheme() {
     var output = questions[Math.floor(Math.random() * questions.length)];
-
-    var outing = document.getElementById("here");
-    outing.innerHTML = output;
+    document.getElementById("here").innerHTML = output;
 }
