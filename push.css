@@ -1,0 +1,11 @@
+html,
+body {
+    margin: 0;
+    bottom: 0;
+}
+
+#gen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
