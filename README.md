@@ -1,3 +1,3 @@
-# push-to-talk
-Simple chat party-game-style!
-See at [Push-to-Talk](https://revwhyte.github.io/push-to-talk/)
+# RevWhyte Repos
+## [BIRL](https://revwhyte.bitbucket.io/birl/)
+## [BozoBot](https://revwhyte.bitbucket.io/bozobot/)
