@@ -1,5 +1,1 @@
-# push-to-talk
-Simple chat party-game-style!
-See at [Push-to-Talk](https://revwhyte.github.io/push-to-talk/)
-
-[//]: <> (This is also a comment.)
+Funny sites I've made to fool around with some techs I don't know yet
