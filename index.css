@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.item {
+    order: 5;
+    flex: 4 3 auto;
+    align-self: auto;
+}
