@@ -14,11 +14,10 @@ $(document).ready(function() {
     $('.fixed-action-btn').floatingActionButton({
         hoverEnabled: false
     });
-});
-
-$(document).ready(function() {
     $('.tooltipped').tooltip();
 });
+
+$("#gen-theme").click(generateTheme());
 
 function generateTheme() {
     var output = questions[Math.floor(Math.random() * questions.length)];
