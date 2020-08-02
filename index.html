@@ -8,13 +8,24 @@
     <title>FF Helper</title>
 </head>
 <body>
-    <div class="container">
-        <h3>Fighting Fantasy Helper</h3>
+    <div class="flex-container">
+        <h1>Fighting Fantasy Helper</h1>
     </div>
-    <div class="container">
-        <button>teste</button>
-        <button>teste</button>
-        <button>teste</button>
+    <div class="flex-container">
+        <div class="flex-item">
+            <!-- <input type="text" class="form-control" placeholder="Life"> -->
+            <p>Life</p>
+            <span id="life">20</span>
+            <!-- <button type="button" class="btn btn-lg btn-info">teste</button> -->
+        </div>
+        <div class="flex-item">
+            <input type="text" class="form-control" placeholder="Luck">
+            <button type="button" class="btn btn-lg btn-info">teste</button>
+        </div>
+        <div class="flex-item">
+            <input type="text" class="form-control" placeholder="Gold">
+            <button type="button" class="btn btn-lg btn-info">teste</button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
